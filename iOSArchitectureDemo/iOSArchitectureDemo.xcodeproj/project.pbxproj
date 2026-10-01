@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AA74B926306EB0050076B0AE /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = AA74B925306EB0050076B0AE /* Swinject */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AA74B907306EAE820076B0AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA74B926306EB0050076B0AE /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = iOSArchitectureDemo;
 			packageProductDependencies = (
+				AA74B925306EB0050076B0AE /* Swinject */,
 			);
 			productName = iOSArchitectureDemo;
 			productReference = AA74B8F0306EAE7F0076B0AE /* iOSArchitectureDemo.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = AA74B8E7306EAE7F0076B0AE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AA74B924306EB0050076B0AE /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA74B8F1306EAE7F0076B0AE /* Products */;
 			projectDirPath = "";
@@ -593,6 +602,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA74B924306EB0050076B0AE /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA74B925306EB0050076B0AE /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA74B924306EB0050076B0AE /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA74B8E8306EAE7F0076B0AE /* Project object */;
 }
